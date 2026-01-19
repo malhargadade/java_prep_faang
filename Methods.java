@@ -1,4 +1,4 @@
-public class Classes {
+public class Methods {
 
     public int Add(int a, int b) {
         int r = a + b;
@@ -23,7 +23,7 @@ public class Classes {
 
     public static void main(String[] args) {
 
-        Classes obj = new Classes();
+        Methods obj = new Methods();
         obj.sub(40, 10);
         boolean r = obj.cond(2);
         int result = obj.Add(10, 20);
