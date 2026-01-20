@@ -21,14 +21,24 @@ public class Methods {
         return r;
     }
 
+
+
+    //method overloading
+     public int Add(int a) {
+        int r = a;
+        return r;
+    }
+    
     public static void main(String[] args) {
 
         Methods obj = new Methods();
         obj.sub(40, 10);
         boolean r = obj.cond(2);
         int result = obj.Add(10, 20);
+        int r1= obj.Add(10);
         System.out.println("cond:" + r);
         System.out.println("addition:" + result);
+        System.out.println(":method overloading value: " + r1);
         // System.out.println("addition:" +result1);
     }
 }
